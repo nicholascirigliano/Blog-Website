@@ -1,0 +1,337 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!TEST>
+
+
+
+<ul>
+{% for post in object_list %}
+    <li> <a href ="{% url 'article-detail' post.pk %}"> {{ post.title }} </a> 
+
+        - <a href="{% url 'category' post.category|slugify %}">{{ post.category }}</a>              <! Take out categories from home page>
+        - {{ post.author.first_name }} {{ post.author.last_name}} - {{ post.post_date }} <small> 
+
+        {% if user.is_authenticated %}
+            {% if user.id == post.author.id %}
+
+                - <a href="{% url 'update_post' post.pk %}">(Edit)</a> 
+
+                <a href="{% url 'delete_post' post.pk %}">(Delete)</a> 
+
+            {% endif %}
+
+        {% endif %}
+
+    </small> </br>
+    {{ post.snippet }} </li> 
+
+
+    
+{% endfor %} 
+</ul> 
+
+
+<! HEADER  >
+    
+<div class="container">
+  <header class="blog-header lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#"></a>
+      </div>
+      <div class="col-4 text-center">
+        <h2>
+        <strong><a class="blog-header-logo text-dark" href="#", style="text-decoration:none">Foodie Friend Amanda</a></strong>
+        </h2>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" href="{% url 'register' %}">Sign Up</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CATEGORIES 
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#" style="text-decoration:none">Travel</a>
+      <a class="p-2 link-secondary" href="#" style="text-decoration:none">Food</a>
+      <a class="p-2 link-secondary" href="#" style="text-decoration:none">Recipies</a>
+      <a class="p-2 link-secondary" href="#" style="text-decoration:none">Style</a>
+      <a class="p-2 link-secondary" href="#" style="text-decoration:none">Opinion</a>
+    </nav>
+  </div>
+-->
+
+</div>
+
+<! START MAIN >
+
+<main>
+    <!--
+    <div class="container">
+        <div class="row mb-2">
+            <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+                <div class="col-md-6 px-0">
+                <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
+                 <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+            </div>
+        <div class="col-md-6 px-0">
+            <img src="{% static 'theblog/images/AmandaHomePage.jpg' %}">
+                <style type="text/css">
+                    img {
+                    border-radius: 8px;
+                    float: left;
+                    object-fit: contain;
+                    max-width: 100%;
+                    max-height: 100%%;
+                    }
+                </style>
+            </div>
+        </div>
+    </div>
+-->
+
+
+
+
+    <div class="container">
+        <div class="row mb-2 p-3 p-md-4 mb-4 rounded text-bg-dark bg-success p-2 text-dark bg-opacity-25">
+            <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">My Time in Port Washington</h1>
+            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p> 
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+            </div>
+        <div class="col-md-6 px-0">
+            <!img class="rounded float-end" src="{% static 'theblog/images/PortHeaderImage.jpeg' %}" style="float:right;" />
+                <style type="text/css">
+                    img {
+                        border-radius: 8px;
+                        object-fit: contain;
+                    }
+                </style>
+        </div>
+        </div>
+        <div class="row">
+    <!-- this is your existing row below the yellow circle -->
+        </div>
+    </div>
+
+
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Food</strong>
+          <h3 class="mb-0">Featured post</h3>
+          <div class="mb-1 text-muted">Nov 12</div>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">Travel</strong>
+          <h3 class="mb-0">Post title</h3>
+          <div class="mb-1 text-muted">Nov 11</div>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!Test>
+
+
+  <div class="row mb-2">
+    <h3 class="pb-2 mb-4 fst-italic border-bottom">Recipes</h3>
+    <div class="col-md-3">
+      <div class="row g-0 flex-md-row mb-4 h-md-250 position-relative">
+        <div class="col p-1 d-flex flex-column position-static">
+            <img src="{% static 'theblog/images/amandahomepagenew.jpeg' %}">
+                <style type="text/css">
+                    img {
+                        height: 400px;
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                </style>
+            <br>
+          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+
+<! OLD CONTAINERS WITH OUTLINES>
+<! row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" >
+
+    <div class="col-md-3">
+      <div class="row g-0 flex-md-row mb-4 h-md-250 position-relative">
+        <div class="col p-1 d-flex flex-column position-static">
+          <img src="{% static 'theblog/images/food.jpeg' %}">
+                <style type="text/css">
+                    img {
+                        max-width: 100%;
+                        height: 400px;
+                        object-fit: cover;
+
+                    }
+                </style>
+            <br>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="row g-0 flex-md-row mb-4 h-md-250 position-relative">
+        <div class="col p-1 d-flex flex-column position-static">
+          <img src="{% static 'theblog/images/mahiche.jpeg' %}">
+                <style type="text/css">
+                    img {
+                        max-width: 100%;
+                        height: 400px;
+                        object-fit: cover;
+                    }
+                </style>
+            <br>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-3">
+      <div class="row g-0 flex-md-row mb-4 h-md-250 position-relative">
+        <div class="col p-1 d-flex flex-column position-static">
+          <img src="{% static 'theblog/images/gsabzi.jpeg' %}">
+                <style type="text/css">
+                    img {
+                        height: 400px;
+                        max-width: 100%;
+                        object-fit: cover;
+                    }
+                </style>
+            <br>
+          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+    <! EXTRA CONTAINERS >
+    <!--
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Food</strong>
+            <h3 class="mb-0">Post Title</h3>
+            <div class="mb-1 text-muted"> August 19 </div>
+            <p class="mb-auto"> This is a full page card </p>
+            <a href="#" class="stretched-link"> Continue Reading </a>
+
+        </div>
+    </div>
+
+    
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Food</strong>
+            <h3 class="mb-0">Post Title</h3>
+            <div class="mb-1 text-muted"> August 19 </div>
+            <p class="mb-auto"> This is a full page card </p>
+            <a href="#" class="stretched-link"> Continue Reading </a>
+
+        </div>
+    </div>
+    
+
+
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Food</strong>
+            <h3 class="mb-0">Post Title</h3>
+            <div class="mb-1 text-muted"> August 19 </div>
+            <p class="mb-auto"> This is a full page card </p>
+            <a href="#" class="stretched-link"> Continue Reading </a>
+        </div>
+    </div>
+    -->
+
+
+    <div class="row g-5">
+        <div class="col-md-8">
+            <h3 class="pb-2 mb-4 fst-italic border-bottom">Additional Posts</h3>
+            <article class="blog-post">
+            <h2 class="blog-post-title mb-1">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2021 by <a href="#">Amanda</a></p>
+
+            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+
+            <hr>
+          
+            </article>
+        </div>
+
+        <! START SIDEBAR >
+
+        <div class="col-md-4">
+
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="fst-italic"><strong>About Me</strong></h4>
+              <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic"><strong>Blog Categories</strong></h4>
+                  {% for item in cat_menu %}
+                    <li><a href="{% url 'category' item|slugify %}" style="text-decoration:none">{{ item }}</a></li>
+                  {% endfor %}
+            </div>
+
+
+            <div class="p-4">
+              <h4 class="fst-italic"><strong>Additional Links</strong></h4>
+              <ol class="list-unstyled">
+                <li><a href="https://www.amazon.com/shop/influencer-bcbe9447" style="text-decoration:none">Amazon Storefront</a></li>
+                <li><a href="https://www.etsy.com/shop/NilooDesignCo" style="text-decoration:none">Etsy Shop</a></li>
+                <li><a href="https://www.instagram.com/foodiefriendamanda/" style="text-decoration:none">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@foodiefriendamanda" style="text-decoration:none">TikTok</a></li>
+              </ol>
+            </div>
+
+          </div>
+
+        </div>
+    </div>
+
+
+</main>
+
+                                                  
+
+{% endblock %}

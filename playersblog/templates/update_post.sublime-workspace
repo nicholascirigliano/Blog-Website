@@ -1,0 +1,847 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p-4"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pass",
+				"password2"
+			],
+			[
+				"lab",
+				"labels"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"text",
+				"text-decoration-color"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"co",
+				"col-lg-7"
+			],
+			[
+				"c",
+				"container"
+			],
+			[
+				"md",
+				"col-md-8"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"ob",
+				"object-fit"
+			],
+			[
+				"obj",
+				"object-position"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"mb",
+				"mb-3"
+			],
+			[
+				"flo",
+				"flex-md-row"
+			],
+			[
+				"r",
+				"center"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"im",
+				"align-items"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fit",
+				"object-fit"
+			],
+			[
+				"fl",
+				"left"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"te",
+				"text-success"
+			],
+			[
+				"s",
+				"serif"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"h",
+				"h1"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"Date",
+				"DateTimeField"
+			],
+			[
+				"Profil",
+				"ProfilePageForm"
+			],
+			[
+				"form",
+				"form_class"
+			],
+			[
+				"prof",
+				"profile_pic"
+			],
+			[
+				"Edit",
+				"EditProfilePageView"
+			],
+			[
+				"registr",
+				"registration"
+			],
+			[
+				"stat",
+				"STATICFILES_DIRS"
+			],
+			[
+				"media",
+				"MEDIA_ROOT"
+			],
+			[
+				"header",
+				"header_image"
+			],
+			[
+				"upl",
+				"upload_to"
+			],
+			[
+				"Pass",
+				"PasswordChangingForm"
+			],
+			[
+				"new",
+				"new_password1"
+			],
+			[
+				"newpass",
+				"new_password2"
+			],
+			[
+				"re",
+				"registration"
+			],
+			[
+				"Pas",
+				"PasswordChangeForm"
+			],
+			[
+				"templat",
+				"template_name"
+			],
+			[
+				"las",
+				"last_login"
+			],
+			[
+				"is",
+				"is_active"
+			],
+			[
+				"User",
+				"UserChangeForm"
+			],
+			[
+				"ck",
+				"ckeditor"
+			],
+			[
+				"Text",
+				"TextInput"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"U",
+				"UserCreationForm"
+			],
+			[
+				"lik",
+				"likes"
+			],
+			[
+				"like",
+				"liked"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"PO",
+				"POST"
+			],
+			[
+				"arti",
+				"article-detail"
+			],
+			[
+				"H",
+				"HttpResponseRedirect"
+			],
+			[
+				"L",
+				"LikeView"
+			],
+			[
+				"Man",
+				"ManyToManyField"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"Cate",
+				"CategoryListView"
+			],
+			[
+				"cat",
+				"cat_menu_list"
+			],
+			[
+				"home",
+				"HomeView"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"GetContext",
+				"get_context_data"
+			],
+			[
+				"choice",
+				"choices"
+			],
+			[
+				"values",
+				"value_list"
+			],
+			[
+				"LOG",
+				"LOGOUT_REDIRECT_URL"
+			],
+			[
+				"LOGIN",
+				"LOGIN_REDIRECT_URL"
+			],
+			[
+				"as",
+				"as_view"
+			],
+			[
+				"aut",
+				"auth"
+			],
+			[
+				"auto",
+				"auto_now"
+			],
+			[
+				"rev",
+				"reverse_lazy"
+			],
+			[
+				"Updae",
+				"UpdatePostView"
+			],
+			[
+				"f",
+				"form-row"
+			],
+			[
+				"att",
+				"attrs"
+			],
+			[
+				"template",
+				"template_name"
+			],
+			[
+				"regite",
+				"register"
+			],
+			[
+				"foreig",
+				"ForeignKey"
+			],
+			[
+				"players",
+				"playersblog"
+			],
+			[
+				"TE",
+				"TEMPLATES_DIRS"
+			],
+			[
+				"topic",
+				"topic_id"
+			],
+			[
+				"top",
+				"topics"
+			],
+			[
+				"T",
+				"TopicForm"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"file",
+				"filenames"
+			],
+			[
+				"num",
+				"num_words"
+			],
+			[
+				"roll",
+				"roll_dice"
+			],
+			[
+				"ra",
+				"randint"
+			],
+			[
+				"my",
+				"my_tesla"
+			],
+			[
+				"up",
+				"upgrade_battery"
+			],
+			[
+				"prv",
+				"privledge"
+			],
+			[
+				"priv",
+				"privledges"
+			],
+			[
+				"l",
+				"location"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"dis",
+				"display_flavors"
+			],
+			[
+				"fa",
+				"flavor"
+			],
+			[
+				"flav",
+				"flavors"
+			],
+			[
+				"batte",
+				"battery"
+			],
+			[
+				"describe",
+				"describe_battery"
+			],
+			[
+				"battery",
+				"battery_size"
+			],
+			[
+				"login",
+				"login_attempts"
+			],
+			[
+				"log",
+				"login_attempts"
+			],
+			[
+				"set",
+				"set_number_served"
+			],
+			[
+				"number",
+				"number_served"
+			],
+			[
+				"read",
+				"read_odometer"
+			],
+			[
+				"odo",
+				"odometer"
+			],
+			[
+				"greet",
+				"greet_user"
+			],
+			[
+				"gree",
+				"greet_user"
+			],
+			[
+				"ama",
+				"amanda"
+			],
+			[
+				"mean",
+				"mean_queen"
+			],
+			[
+				"man",
+				"mean_queen"
+			],
+			[
+				"mea",
+				"mean_queen"
+			],
+			[
+				"prin",
+				"printing_funtions"
+			],
+			[
+				"car",
+				"car_info"
+			],
+			[
+				"sand",
+				"sandwich_items"
+			],
+			[
+				"san",
+				"sandwich_items"
+			],
+			[
+				"topp",
+				"topping"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "home.html",
+			"settings":
+			{
+				"buffer_size": 12667,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/home.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/forms.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/change-password.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/register.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/base.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/article_details.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/add_post.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/forms.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/views.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/login.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/add_comment.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/add_category.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/user_profile.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/edit_profile_page.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/edit_profile.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/create_user_profile_page.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/views.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/urls.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/admin.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/models.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/urls.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/players_choice/settings.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/category_list.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/players_choice/urls.py",
+		"/Users/nicholascirigliano/Documents/playerschoice/static/TheBlog/images/test",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/password_success.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/categories.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/update_post.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/playersblog/templates/delete_post.html",
+		"/Users/nicholascirigliano/Documents/playerschoice/members/templates/registration/registration.html",
+		"/Users/nicholascirigliano/Downloads/number-guesser-solution/script.js",
+		"/Users/nicholascirigliano/Desktop/Friday_Jam/friday_jam/settings.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/users/templates/registration/register.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/templates/learning_logs/base.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/models.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/templates/learning_logs/topic.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/templates/learning_logs/topics.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/users/templates/registration/login.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/templates/learning_logs/index.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/views.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_log/settings.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/templates/learning_logs/new_entry.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/urls.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/forms.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/templates/learning_logs/new_topic.html",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_log/urls.py",
+		"/Users/nicholascirigliano/Desktop/Learning_Log/learning_logs/admin.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/practice_python/random.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/practice_python/100_years_old.py",
+		"/Users/nicholascirigliano/Desktop/100.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/alien_invasion/alien_invasion.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/employee_test.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/test_survey.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/city_functions.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/city_country.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/city_names.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/cities.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/names.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/remember_me.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/favorite_number_remembered.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/favorite_number_read.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/greet_user.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/greet_users.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/number_reader.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/numbers.json",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/number_writer.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/dogs.txt",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/addition.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/division_calculator.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/word_count.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/alice.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/write_message.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/pi_string.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/pi_one_thousand.txt",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/pi",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/file_reader.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/pi_digits.txt",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/dice.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/dice,py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/chipotle.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/restaurant_class.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/electric_car.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/my_cars.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/car.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/my_electric_car.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/users.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/user_with_admin.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/ice_cream_stand.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/python_badge.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/dogs.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/printing_models.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/printing_functions.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/making_pizza.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/pizza.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/car_dictionary.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/user_profile.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/sandwiches.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/user_profile.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/archived_messages.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/album.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/city_names.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/new_greeter.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/greeter.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/greeter.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/greetings.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/new_person.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/formatted_name.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/cities.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/make_shirt.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/new_pets.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/pets.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/favorite_book.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/message.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/deli.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/mountain_poll.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/pets.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/confirmed_users.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/movie_tickets.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/new_pizza_toppings.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/counting.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/parrot.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/multiple_of_ten.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/restaurant_seating.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/rental_car.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/even_or_odd.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/rollercoaster.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/data_science.py",
+		"/Users/nicholascirigliano/Documents/Nicholas’s MacBook Pro/Python/Chapter Exercises/favorite_places.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "home.html",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python3.sublime-build",
+	"project": "update_post.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
